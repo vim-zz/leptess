@@ -11,7 +11,7 @@ license = "MIT"
 documentation = "https://houqp.github.io/leptess/leptess/index.html"
 
 [dependencies]
-tesseract-plumbing = "0.5.1"
+tesseract-plumbing = { git = "https://github.com/vim-zz/tesseract-plumbing", branch = "fix_macos" }
 thiserror = "1"
 
 [dev-dependencies]
